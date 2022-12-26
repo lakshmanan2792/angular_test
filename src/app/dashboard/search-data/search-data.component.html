@@ -1,0 +1,15 @@
+<div>
+    <input type="text" class="form-control" placeholder="Start typing document name..."
+     [(ngModel)]="document_name">
+</div>
+
+<div class="">
+    <div class="row" > 
+        <div class="col-md-3 card-docs" *ngFor="let doc of document_list | filter: document_name">
+            <mat-card class="m-card">
+                <div class="t-a-r">{{doc.document_type}}</div>
+                <mat-card-content class="m-content">{{doc.document_name}}</mat-card-content>
+              </mat-card>
+       </div> 
+    </div>
+</div>

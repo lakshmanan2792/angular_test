@@ -1,0 +1,19 @@
+.header{
+    font-size: 16px;
+}
+
+.header-text{
+    font-size: 14px;
+}
+
+.f-w-100{
+ font-weight: 100;
+}
+
+.f-w-600{
+    font-weight: 600;
+}
+
+.pad-t-b{
+    padding: 10px 20px;
+}

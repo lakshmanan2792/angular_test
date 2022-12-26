@@ -1,0 +1,31 @@
+
+#sidebar {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 250px;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  
+  
+  #sidebar .nav{
+    font-size: 14px;
+    padding: 0px 25px;
+  }
+  
+  
+  #sidebar ul li {
+    margin: 10px;
+    width: 120px;
+  }
+  #sidebar ul li:hover, .nav-link{
+    font-weight: 600;
+    cursor: pointer;
+  }
+
